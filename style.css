@@ -1,0 +1,55 @@
+.btn {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.list {
+    display: flex;
+    gap: 30px;
+    justify-self: center;
+    align-items: center;
+  margin-left: 270px    ;
+    margin-bottom: 50px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a {
+  margin: 0;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  border: 0;
+}
+
+/* Add spacing between sections */
+header, main, .accordion, table, .modal, .list {
+  margin-bottom: 50px;
+}
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
